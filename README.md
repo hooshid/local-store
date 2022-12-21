@@ -98,4 +98,4 @@ has(key: string): boolean
 
 ## Todo
 * method for clear expired caches
-* output js script and defined types separately
+* output js script and define types separately
