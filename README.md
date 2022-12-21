@@ -17,7 +17,7 @@ Helpers to make local storage easier to use and just like cookie, having expire 
 ## Usage
 
 ```js
-import localStore from '@hooshid/localStore'
+import localStore from '@hooshid/local-store'
 ```
 
 ## Methods
