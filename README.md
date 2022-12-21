@@ -5,13 +5,13 @@ Helpers to make local storage easier to use and just like cookie, having expire 
     <img src="https://img.shields.io/npm/l/@hooshid/local-store.svg" alt="License">
 </a>
 <a href="https://www.npmjs.com/package/@hooshid/local-store">
+    <img src="https://img.shields.io/npm/v/@hooshid/local-store.svg" alt="Version">
+</a>
+<a href="https://www.npmjs.com/package/@hooshid/local-store">
     <img src="https://img.shields.io/npm/dt/@hooshid/local-store.svg" alt="Downloads">
 </a>
 <a href="https://www.npmjs.com/package/@hooshid/local-store">
     <img src="https://img.shields.io/npm/dm/@hooshid/local-store.svg" alt="Downloads">
-</a>
-<a href="https://www.npmjs.com/package/@hooshid/local-store">
-    <img src="https://img.shields.io/npm/v/@hooshid/local-store.svg" alt="Version">
 </a>
 
 ## Usage
