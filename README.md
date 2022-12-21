@@ -3,7 +3,11 @@ Helpers to make local storage easier to use and just like cookie, having expire 
 
 ## Usage
 
+<<<<<<< HEAD
 ```js
+=======
+```ts
+>>>>>>> 428156ba93e21f7cab59642ca809cb8efc789093
 import localStore from '@hooshid/localStore'
 ```
 
@@ -19,7 +23,11 @@ import localStore from '@hooshid/localStore'
 
 Set an item in local storage.
 
+<<<<<<< HEAD
 ```js
+=======
+```ts
+>>>>>>> 428156ba93e21f7cab59642ca809cb8efc789093
 set(key: string, value: string, ttl?: number | string): void
 ```
 
@@ -47,7 +55,11 @@ just use 1 above method and dont mixed (1d12h does not work -> 36h work fine!)
 
 Get an item from local storage.
 
+<<<<<<< HEAD
 ```js
+=======
+```ts
+>>>>>>> 428156ba93e21f7cab59642ca809cb8efc789093
 get(key: string): string | null
 ```
 
@@ -77,7 +89,11 @@ clearAll(prefix?: string): void
 
 Check key is exist
 
+<<<<<<< HEAD
 ```js
+=======
+```ts
+>>>>>>> 428156ba93e21f7cab59642ca809cb8efc789093
 has(key: string): boolean
 ```
 
