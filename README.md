@@ -3,7 +3,7 @@ Helpers to make local storage easier to use and just like cookie, having expire 
 
 ## Usage
 
-```js
+```ts
 import localStore from '@hooshid/localStore'
 ```
 
@@ -19,7 +19,7 @@ import localStore from '@hooshid/localStore'
 
 Set an item in local storage.
 
-```js
+```ts
 set(key: string, value: string, ttl?: number | string): void
 ```
 
@@ -47,7 +47,7 @@ just use 1 above method and dont mixed (1d12h does not work -> 36h work fine!)
 
 Get an item from local storage.
 
-```js
+```ts
 get(key: string): string | null
 ```
 
