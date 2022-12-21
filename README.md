@@ -3,11 +3,7 @@ Helpers to make local storage easier to use and just like cookie, having expire 
 
 ## Usage
 
-<<<<<<< HEAD
 ```js
-=======
-```ts
->>>>>>> 428156ba93e21f7cab59642ca809cb8efc789093
 import localStore from '@hooshid/localStore'
 ```
 
@@ -23,18 +19,14 @@ import localStore from '@hooshid/localStore'
 
 Set an item in local storage.
 
-<<<<<<< HEAD
 ```js
-=======
-```ts
->>>>>>> 428156ba93e21f7cab59642ca809cb8efc789093
 set(key: string, value: string, ttl?: number | string): void
 ```
 
 - `key` - The key of the item to set.
 - `value` - The value to set.
 - `ttl` - The time life in seconds format for living cache in localStorage.
-- `ttl` - The time life in default is one year, if you want set time life you should set in secconds or set like below format.
+- `ttl` - The time life in default is one year, if you want set time life you should set in seconds or set like below format.
 
 ```bash
 m for minute
@@ -49,17 +41,13 @@ d for day
 * 1d -> 1 day
 * 30d -> 30 days
 
-just use 1 above method and dont mixed (1d12h does not work -> 36h work fine!)
+just use 1 above method and don't mixed (1d12h does not work -> 36h work fine!)
 
 ### Get
 
 Get an item from local storage.
 
-<<<<<<< HEAD
 ```js
-=======
-```ts
->>>>>>> 428156ba93e21f7cab59642ca809cb8efc789093
 get(key: string): string | null
 ```
 
@@ -89,11 +77,7 @@ clearAll(prefix?: string): void
 
 Check key is exist
 
-<<<<<<< HEAD
 ```js
-=======
-```ts
->>>>>>> 428156ba93e21f7cab59642ca809cb8efc789093
 has(key: string): boolean
 ```
 
