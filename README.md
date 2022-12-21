@@ -77,7 +77,7 @@ clearAll(prefix?: string): void
 
 Check key is exist
 
-```js
+```ts
 has(key: string): boolean
 ```
 
