@@ -29,17 +29,19 @@ set(key: string, value: string, ttl?: number | string): void
 - `ttl` - The time life in default is one year, if you want set time life you should set in secconds or set like below format.
 
 ```bash
-* m for minute
-* h for hour
-* d for day
+m for minute
+h for hour
+d for day
 ```
 
 #### examples
-60m -> 60 minute
-1h -> 1 hour (equal to 60m)
-24h -> 24 hours (equal to 1d)
-1d -> 1 day
-30d -> 30 days
+* 60m -> 60 minute
+* 1h -> 1 hour (equal to 60m)
+* 24h -> 24 hours (equal to 1d)
+* 1d -> 1 day
+* 30d -> 30 days
+
+just use 1 above method and dont mixed (1d12h does not work -> 36h work fine!)
 
 ### Get
 
