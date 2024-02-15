@@ -107,6 +107,40 @@ export function has(key: string) {
 }
 
 /**
+ * Get Expire Time
+ * @param key
+ */
+function getExpireTime(key) {
+    // browser support ?
+    if (!window.localStorage) {
+        return null;
+    }
+
+    const itemStr = localStorage.getItem(key);
+
+    // if the item doesn't exist
+    if (!itemStr) {
+        return null;
+    }
+
+    const item = JSON.parse(itemStr);
+
+    return item.expire;
+}
+
+/**
+ * Get Remain Time
+ * @param key
+ */
+function getRemainTime(key){
+    if(getExpireTime(key)) {
+        return Math.round((getExpireTime(key) - new Date().getTime()) / 1000)
+    } else {
+        return null;
+    }
+}
+
+/**
  * Local storage with expiration
  */
 export default {
@@ -115,4 +149,6 @@ export default {
   remove,
   clearAll,
   has,
+  getExpireTime,
+  getRemainTime,
 };
