@@ -27,6 +27,8 @@ import localStore from '@hooshid/local-store'
 - `remove` — Remove item from local storage.
 - `clearAll` — Removes all or just Prefixed items from local storage.
 - `has` — Check item exist in local storage.
+- `getExpireTime` — Get item expire time.
+- `getRemainTime` — Get remaining TTL of a item.
 
 ### Set
 
@@ -92,6 +94,26 @@ Check key is exist
 
 ```js
 has(key: string): boolean
+```
+
+- `key` — The key of the item.
+
+### Get Expire Time
+
+Get item expire time.
+
+```js
+getExpireTime(key: string): null|number
+```
+
+- `key` — The key of the item.
+
+### Get Remain Time
+
+Get remaining TTL of a item.
+
+```js
+getRemainTime(key: string): null|number
 ```
 
 - `key` — The key of the item.
