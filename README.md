@@ -110,7 +110,7 @@ getExpireTime(key: string): null|number
 
 ### Get Remain Time
 
-Get remaining TTL of a item.
+Get remaining time of a item.
 
 ```js
 getRemainTime(key: string): null|number
