@@ -110,7 +110,7 @@ export function has(key: string) {
  * Get Expire Time
  * @param key
  */
-function getExpireTime(key) {
+function getExpireTime(key: string) {
     // browser support ?
     if (!window.localStorage) {
         return null;
@@ -132,7 +132,7 @@ function getExpireTime(key) {
  * Get Remain Time
  * @param key
  */
-function getRemainTime(key){
+function getRemainTime(key: string){
     if(getExpireTime(key)) {
         return Math.round((getExpireTime(key) - new Date().getTime()) / 1000)
     } else {
